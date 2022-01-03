@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nave-icon{
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #2f92e4;
+}
+.nave-icon a {
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+.nave-icon a:hover {
+    outline: 3px solid white;
+}
+.nave-bar {
+    background-color: #2f92e4;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+#titel {
+    display: inline-block;
+    color: white;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.nave-bar h2{
+    text-align: left;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.text {
+    padding: 50px 100px;
+    padding-top: 100px;
+}
+@media screen and (max-width: 800px) {
+    .container {
+        display: block;
+        text-align: center;
+    }
+  }
